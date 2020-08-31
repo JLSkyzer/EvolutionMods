@@ -1,0 +1,29 @@
+{
+  "group": "evolution",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "evolution:hexelia_ingo"
+    },
+    "1": {
+      "item": "evolution:hexelia_ingo"
+    },
+    "2": {
+      "item": "evolution:hexelia_ingo"
+    },
+    "3": {
+      "item": "evolution:hexelia_ingo"
+    },
+    "5": {
+      "item": "evolution:hexelia_ingo"
+    }
+  },
+  "result": {
+    "item": "evolution:hexelia_armor_helmet",
+    "count": 1
+  }
+}

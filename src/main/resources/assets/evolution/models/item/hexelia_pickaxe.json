@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "evolution:items/hexelia_pickaxe"
+  }
+}

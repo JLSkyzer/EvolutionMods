@@ -1,0 +1,16 @@
+{
+  "group": "evolution",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "evolution:hexelia_block"
+    }
+  },
+  "result": {
+    "item": "evolution:hexelia_ingo",
+    "count": 9
+  }
+}

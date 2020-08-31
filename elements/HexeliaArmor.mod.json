@@ -1,0 +1,53 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "hexeliaarmor_head",
+    "enableBody": true,
+    "textureBody": "hexeliaarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "hexeliaarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "hexeliaarmor_boots",
+    "creativeTab": {
+      "value": "CUSTOM:HexeliaHexelia"
+    },
+    "armorTextureFile": "hexeliaarmor",
+    "helmetName": "Hexelia Armor Helmet",
+    "bodyName": "Hexelia Armor Body",
+    "leggingsName": "Hexelia Armor Leggings",
+    "bootsName": "Hexelia Armor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 40,
+    "damageValueHelmet": 7,
+    "damageValueBody": 9,
+    "damageValueLeggings": 9,
+    "damageValueBoots": 7,
+    "enchantability": 45,
+    "toughness": 3.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "evolution",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "evolution:adamantite_ingot"
+    },
+    "1": {
+      "item": "evolution:adamantite_ingot"
+    },
+    "2": {
+      "item": "evolution:adamantite_ingot"
+    },
+    "3": {
+      "item": "evolution:adamantite_ingot"
+    },
+    "5": {
+      "item": "evolution:adamantite_ingot"
+    }
+  },
+  "result": {
+    "item": "evolution:adamantite_armor_helmet",
+    "count": 1
+  }
+}

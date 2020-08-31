@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "evolution:blocks/hexelia_ore",
+    "up": "evolution:blocks/hexelia_ore",
+    "north": "evolution:blocks/hexelia_ore",
+    "east": "evolution:blocks/hexelia_ore",
+    "south": "evolution:blocks/hexelia_ore",
+    "west": "evolution:blocks/hexelia_ore",
+    "particle": "evolution:blocks/hexelia_ore"
+  }
+}

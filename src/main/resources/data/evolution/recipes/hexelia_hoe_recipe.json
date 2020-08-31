@@ -1,0 +1,27 @@
+{
+  "group": "evolution",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "evolution:hexelia_ingo"
+    },
+    "1": {
+      "item": "evolution:hexelia_ingo"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "evolution:hexelia_hoe",
+    "count": 1
+  }
+}
