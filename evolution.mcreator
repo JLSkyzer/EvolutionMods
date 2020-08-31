@@ -831,6 +831,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craft_digging_machine"
+    },
+    {
+      "name": "BlueOrb",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_orb"
+    },
+    {
+      "name": "HexeliaDieuDesGlaces",
+      "type": "tab",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hexelia_dieu_des_glaces"
     }
   ],
   "variable_elements": [],
@@ -838,12 +856,13 @@
   "language_map": {
     "en_us": {
       "block.evolution.digging_machine_on": "Digging Machine On",
-      "item.evolution.hexelia_pickaxe": "Hexelia Pickaxe",
+      "item.evolution.hexelia_pickaxe": "arkanite Pickaxe",
       "item.evolution.adamantite_ingot": "Adamantite Ingot",
-      "item.evolution.hexelia_shovel": "Hexelia Shovel",
+      "item.evolution.hexelia_shovel": "arkanite Shovel",
+      "item.evolution.blue_orb": "Blue Orb",
       "item.evolution.adamantite_axe": "Adamantite Axe",
       "itemGroup.tabhexalia_onyx": "Hexalia | Onyx",
-      "item.evolution.hexelia_sword": "Hexelia Sword",
+      "item.evolution.hexelia_sword": "arkanite Sword",
       "item.evolution.onyx_pickaxe": "Onyx Pickaxe",
       "item.evolution.onyx_armor_leggings": "Onyx Leggings",
       "item.evolution.adamantite_armor_boots": "Adamantite Armor Boots",
@@ -860,24 +879,25 @@
       "item.evolution.adamantite_pickaxe": "Adamantite Pickaxe",
       "block.evolution.digging_machine_off": "Digging Machine",
       "item.evolution.onyx_hoe": "Onyx Hoe",
-      "item.evolution.hexelia_hoe": "Hexelia Hoe",
+      "item.evolution.hexelia_hoe": "arkanite Hoe",
       "item.evolution.adamantite_armor_leggings": "Adamantite Armor Leggings",
       "block.evolution.onyx_ore_block": "Block of Onyx",
       "block.evolution.adamantite_block": "Adamantite Block",
-      "item.evolution.hexelia_armor_boots": "Hexelia Armor Boots",
+      "itemGroup.tabhexelia_dieu_des_glaces": "Hexelia | Dieu Des Glaces",
+      "item.evolution.hexelia_armor_boots": "arkanite Boots",
       "block.evolution.onyx_ore": "Onyx Ore",
-      "item.evolution.hexelia_ingo": "Hexelia Ingot",
+      "item.evolution.hexelia_ingo": "arkanite Ingot",
       "item.evolution.onyx_axe": "Onyx Axe",
       "item.evolution.onyx_gem": "Onyx",
-      "item.evolution.hexelia_armor_helmet": "Hexelia Armor Helmet",
-      "item.evolution.hexelia_armor_chestplate": "Hexelia Armor Body",
-      "block.evolution.hexelia_ore": "Hexelia Ore",
+      "item.evolution.hexelia_armor_helmet": "arkanite Helmet",
+      "item.evolution.hexelia_armor_chestplate": "arkanite Body",
+      "block.evolution.hexelia_ore": "arkanite Ore",
       "item.evolution.adamantite_shovel": "Adamantite Shovel",
-      "item.evolution.hexelia_axe": "Hexelia Axe",
+      "item.evolution.hexelia_axe": "arkanite Axe",
       "item.evolution.onyx_armor_helmet": "Onyx Helmet",
       "item.evolution.adamantite_armor_chestplate": "Adamantite Armor Body",
-      "item.evolution.hexelia_armor_leggings": "Hexelia Armor Leggings",
-      "block.evolution.hexelia_block": "Hexelia Block"
+      "item.evolution.hexelia_armor_leggings": "arkanite Leggings",
+      "block.evolution.hexelia_block": "arkanite Block"
     }
   },
   "workspaceSettings": {
