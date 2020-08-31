@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "iron_drill_side",
+        "back": "iron_drill_back",
+        "drill": "diggingmachineonhead"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "evolution:custom/digging_machine_on",
+  "textures": {
+    "all": "evolution:blocks/iron_drill_side",
+    "particle": "evolution:blocks/iron_drill_side",
+    "side": "evolution:blocks/iron_drill_side",
+    "back": "evolution:blocks/iron_drill_back",
+    "drill": "evolution:blocks/diggingmachineonhead"
+  }
+}

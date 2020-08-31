@@ -1,4 +1,5 @@
 {
+  "block.evolution.digging_machine_on": "Digging Machine On",
   "item.evolution.hexelia_pickaxe": "Hexelia Pickaxe",
   "item.evolution.adamantite_ingot": "Adamantite Ingot",
   "item.evolution.hexelia_shovel": "Hexelia Shovel",
@@ -19,6 +20,7 @@
   "item.evolution.adamantite_armor_helmet": "Adamantite Armor Helmet",
   "item.evolution.adamantite_sword": "Adamantite Sword",
   "item.evolution.adamantite_pickaxe": "Adamantite Pickaxe",
+  "block.evolution.digging_machine_off": "Digging Machine",
   "item.evolution.onyx_hoe": "Onyx Hoe",
   "item.evolution.hexelia_hoe": "Hexelia Hoe",
   "item.evolution.adamantite_armor_leggings": "Adamantite Armor Leggings",
