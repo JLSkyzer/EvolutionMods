@@ -1,0 +1,16 @@
+{
+  "group": "evolution",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "evolution:adamantite_block"
+    }
+  },
+  "result": {
+    "item": "evolution:adamantite_ingot",
+    "count": 9
+  }
+}

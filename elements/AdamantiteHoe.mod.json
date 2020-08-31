@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "adamantite_hoe",
+    "customModelName": "Normal",
+    "name": "Adamantite Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HexeliaAdamantite"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 35,
+    "damageVsEntity": 5.0,
+    "usageCount": 902,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

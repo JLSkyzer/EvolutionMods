@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "adamantite_axe",
+    "customModelName": "Normal",
+    "name": "Adamantite Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HexeliaAdamantite"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 35,
+    "damageVsEntity": 15.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -204,25 +204,206 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hexalia_onyx"
+    },
+    {
+      "name": "AdamantiteIngot",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_ingot"
+    },
+    {
+      "name": "HexeliaAdamantite",
+      "type": "tab",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hexelia_adamantite"
+    },
+    {
+      "name": "AdamantiteOre",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_ore"
+    },
+    {
+      "name": "AdamantiteBlock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_block"
+    },
+    {
+      "name": "AdamantiteOreSmelting",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_ore_smelting"
+    },
+    {
+      "name": "AdamantiteBlockRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_block_recipe"
+    },
+    {
+      "name": "AdamantiteIngotRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_ingot_recipe"
+    },
+    {
+      "name": "AdamantiteArmor",
+      "type": "armor",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AdamantitePickaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_pickaxe"
+    },
+    {
+      "name": "AdamantiteAxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_axe"
+    },
+    {
+      "name": "AdamantiteSword",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_sword"
+    },
+    {
+      "name": "AdamantiteShovel",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_shovel"
+    },
+    {
+      "name": "AdamantiteHoe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_hoe"
+    },
+    {
+      "name": "AdamantitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_pickaxe_recipe"
+    },
+    {
+      "name": "AdamantiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_axe_recipe"
+    },
+    {
+      "name": "AdamantiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_sword_recipe"
+    },
+    {
+      "name": "AdamantiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_shovel_recipe"
+    },
+    {
+      "name": "AdamantiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamantite_hoe_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.evolution.onyx_hoe": "Onyx Hoe",
+      "item.evolution.adamantite_ingot": "Adamantite Ingot",
+      "item.evolution.adamantite_axe": "Adamantite Axe",
       "itemGroup.tabhexalia_onyx": "Hexalia | Onyx",
       "item.evolution.onyx_pickaxe": "Onyx Pickaxe",
       "item.evolution.onyx_armor_leggings": "Onyx Leggings",
+      "block.evolution.adamantite_ore": "Adamantite Ore",
+      "item.evolution.adamantite_armor_boots": "Adamantite Armor Boots",
       "item.evolution.onyx_shovel": "Onyx Shovel",
-      "block.evolution.onyx_ore_block": "Block of Onyx",
       "item.evolution.onyx_armor_chestplate": "Onyx Chestplate",
+      "item.evolution.onyx_armor_boots": "Onyx Boots",
+      "item.evolution.onyx_sword": "Onyx Sword",
+      "item.evolution.adamantite_hoe": "Adamantite Hoe",
+      "itemGroup.tabhexelia_adamantite": "Hexelia | Adamantite",
+      "item.evolution.adamantite_armor_helmet": "Adamantite Armor Helmet",
+      "item.evolution.adamantite_sword": "Adamantite Sword",
+      "item.evolution.adamantite_pickaxe": "Adamantite Pickaxe",
+      "item.evolution.onyx_hoe": "Onyx Hoe",
+      "item.evolution.adamantite_armor_leggings": "Adamantite Armor Leggings",
+      "block.evolution.onyx_ore_block": "Block of Onyx",
+      "block.evolution.adamantite_block": "Adamantite Block",
       "block.evolution.onyx_ore": "Onyx Ore",
       "item.evolution.onyx_axe": "Onyx Axe",
-      "item.evolution.onyx_armor_boots": "Onyx Boots",
       "item.evolution.onyx_gem": "Onyx",
-      "item.evolution.onyx_sword": "Onyx Sword",
-      "item.evolution.onyx_armor_helmet": "Onyx Helmet"
+      "item.evolution.adamantite_shovel": "Adamantite Shovel",
+      "item.evolution.onyx_armor_helmet": "Onyx Helmet",
+      "item.evolution.adamantite_armor_chestplate": "Adamantite Armor Body"
     }
   },
   "workspaceSettings": {

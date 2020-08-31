@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "evolution:blocks/adamantite_block",
+    "up": "evolution:blocks/adamantite_block",
+    "north": "evolution:blocks/adamantite_block",
+    "east": "evolution:blocks/adamantite_block",
+    "south": "evolution:blocks/adamantite_block",
+    "west": "evolution:blocks/adamantite_block",
+    "particle": "evolution:blocks/adamantite_block"
+  }
+}

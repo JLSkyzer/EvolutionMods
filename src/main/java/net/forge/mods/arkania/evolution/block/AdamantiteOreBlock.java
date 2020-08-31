@@ -4,7 +4,6 @@ package net.forge.mods.arkania.evolution.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.gen.placement.Placement;
@@ -26,8 +25,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.forge.mods.arkania.evolution.itemgroup.HexaliaOnyxItemGroup;
-import net.forge.mods.arkania.evolution.item.OnyxGemItem;
+import net.forge.mods.arkania.evolution.itemgroup.HexeliaAdamantiteItemGroup;
 import net.forge.mods.arkania.evolution.EvolutionModElements;
 
 import java.util.Random;
@@ -35,24 +33,23 @@ import java.util.List;
 import java.util.Collections;
 
 @EvolutionModElements.ModElement.Tag
-public class OnyxOreBlock extends EvolutionModElements.ModElement {
-	@ObjectHolder("evolution:onyx_ore")
+public class AdamantiteOreBlock extends EvolutionModElements.ModElement {
+	@ObjectHolder("evolution:adamantite_ore")
 	public static final Block block = null;
-	public OnyxOreBlock(EvolutionModElements instance) {
-		super(instance, 2);
+	public AdamantiteOreBlock(EvolutionModElements instance) {
+		super(instance, 25);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(HexaliaOnyxItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(HexeliaAdamantiteItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3.9000000000000004f, 6.1677205203558705f)
-					.lightValue(0).harvestLevel(3).harvestTool(ToolType.PICKAXE));
-			setRegistryName("onyx_ore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
+			setRegistryName("adamantite_ore");
 		}
 
 		@Override
@@ -60,7 +57,7 @@ public class OnyxOreBlock extends EvolutionModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(OnyxGemItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	@Override
@@ -77,12 +74,20 @@ public class OnyxOreBlock extends EvolutionModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("onyx_ore", "onyx_ore", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("adamantite_ore", "adamantite_ore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.GRANITE.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.DIORITE.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.DIRT.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.ANDESITE.getDefaultState().getBlock())
+					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 8)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(8, 1, 1, 49))));
+			}), block.getDefaultState(), 8)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 24))));
 		}
 	}
 }

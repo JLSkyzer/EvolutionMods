@@ -2,14 +2,14 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "onyx_ore",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "adamantite_ore",
+    "textureTop": "adamantite_ore",
+    "textureLeft": "adamantite_ore",
+    "textureFront": "adamantite_ore",
+    "textureRight": "adamantite_ore",
+    "textureBack": "adamantite_ore",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "itemTexture": "",
@@ -22,17 +22,17 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Onyx Ore",
+    "name": "Adamantite Ore",
     "specialInfo": [],
-    "hardness": 3.9000000000000004,
-    "resistance": 6.1677205203558705,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:HexaliaOnyx"
+      "value": "CUSTOM:HexeliaAdamantite"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:OnyxGem"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -63,7 +63,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -95,11 +95,23 @@
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
-    "frequencyPerChunks": 8,
+    "frequencyPerChunks": 10,
     "frequencyOnChunk": 8,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 49
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 24
   }
 }
