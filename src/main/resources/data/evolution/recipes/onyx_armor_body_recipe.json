@@ -1,0 +1,39 @@
+{
+  "group": "evolution",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "evolution:onyx_gem"
+    },
+    "2": {
+      "item": "evolution:onyx_gem"
+    },
+    "3": {
+      "item": "evolution:onyx_gem"
+    },
+    "4": {
+      "item": "evolution:onyx_gem"
+    },
+    "5": {
+      "item": "evolution:onyx_gem"
+    },
+    "6": {
+      "item": "evolution:onyx_gem"
+    },
+    "7": {
+      "item": "evolution:onyx_gem"
+    },
+    "8": {
+      "item": "evolution:onyx_gem"
+    }
+  },
+  "result": {
+    "item": "evolution:onyx_armor_chestplate",
+    "count": 1
+  }
+}

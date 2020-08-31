@@ -1,0 +1,26 @@
+{
+  "group": "evolution",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "evolution:onyx_gem"
+    },
+    "2": {
+      "item": "evolution:onyx_gem"
+    },
+    "3": {
+      "item": "evolution:onyx_gem"
+    },
+    "5": {
+      "item": "evolution:onyx_gem"
+    }
+  },
+  "result": {
+    "item": "evolution:onyx_armor_boots",
+    "count": 1
+  }
+}

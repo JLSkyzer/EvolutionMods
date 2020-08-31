@@ -1,0 +1,13 @@
+{
+  "group": "evolution",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evolution:onyx_ore_block"
+    }
+  ],
+  "result": {
+    "item": "evolution:onyx_gem",
+    "count": 9
+  }
+}

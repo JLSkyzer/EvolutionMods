@@ -1,0 +1,229 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "OnyxGem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_gem"
+    },
+    {
+      "name": "OnyxOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_ore"
+    },
+    {
+      "name": "OnyxOreBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_ore_block"
+    },
+    {
+      "name": "OnyxOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_ore_block_recipe"
+    },
+    {
+      "name": "OnyxBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_block_ore_recipe"
+    },
+    {
+      "name": "OnyxOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_ore_smelting"
+    },
+    {
+      "name": "OnyxPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_pickaxe"
+    },
+    {
+      "name": "OnyxAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_axe"
+    },
+    {
+      "name": "OnyxSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_sword"
+    },
+    {
+      "name": "OnyxShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_shovel"
+    },
+    {
+      "name": "OnyxHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_hoe"
+    },
+    {
+      "name": "OnyxPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_pickaxe_recipe"
+    },
+    {
+      "name": "OnyxAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_axe_recipe"
+    },
+    {
+      "name": "OnyxSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_sword_recipe"
+    },
+    {
+      "name": "OnyxShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_shovel_recipe"
+    },
+    {
+      "name": "OnyxHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_hoe_recipe"
+    },
+    {
+      "name": "OnyxArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_armor"
+    },
+    {
+      "name": "OnyxArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_armor_helmet_recipe"
+    },
+    {
+      "name": "OnyxArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_armor_body_recipe"
+    },
+    {
+      "name": "OnyxArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_armor_leggings_recipe"
+    },
+    {
+      "name": "OnyxArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.evolution.onyx_hoe": "Onyx Hoe",
+      "item.evolution.onyx_pickaxe": "Onyx Pickaxe",
+      "item.evolution.onyx_armor_leggings": "Onyx Leggings",
+      "item.evolution.onyx_shovel": "Onyx Shovel",
+      "block.evolution.onyx_ore_block": "Block of Onyx",
+      "item.evolution.onyx_armor_chestplate": "Onyx Chestplate",
+      "block.evolution.onyx_ore": "Onyx Ore",
+      "item.evolution.onyx_axe": "Onyx Axe",
+      "item.evolution.onyx_armor_boots": "Onyx Boots",
+      "item.evolution.onyx_gem": "Onyx",
+      "item.evolution.onyx_sword": "Onyx Sword",
+      "item.evolution.onyx_armor_helmet": "Onyx Helmet"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "evolution",
+    "modName": "evolution",
+    "version": "1.0.0",
+    "author": "Megaport, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.forge.mods.arkania.evolution",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

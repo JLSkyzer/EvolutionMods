@@ -1,0 +1,53 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "onyx_head",
+    "enableBody": true,
+    "textureBody": "onyx_body",
+    "enableLeggings": true,
+    "textureLeggings": "onyx_leggings",
+    "enableBoots": true,
+    "textureBoots": "onyx_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "onyx",
+    "helmetName": "Onyx Helmet",
+    "bodyName": "Onyx Chestplate",
+    "leggingsName": "Onyx Leggings",
+    "bootsName": "Onyx Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 20,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 3,
+    "enchantability": 12,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}
