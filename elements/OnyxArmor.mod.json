@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "onyx_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:HexaliaOnyx"
     },
     "armorTextureFile": "onyx",
     "helmetName": "Onyx Helmet",
@@ -40,11 +40,11 @@
     "bootsModelTexture": "From armor",
     "maxDamage": 20,
     "damageValueHelmet": 3,
-    "damageValueBody": 7,
-    "damageValueLeggings": 8,
+    "damageValueBody": 6,
+    "damageValueLeggings": 6,
     "damageValueBoots": 3,
-    "enchantability": 12,
-    "toughness": 0.0,
+    "enchantability": 16,
+    "toughness": 1.0,
     "equipSound": {
       "value": ""
     },

@@ -4,11 +4,11 @@ package net.forge.mods.arkania.evolution.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
+import net.forge.mods.arkania.evolution.itemgroup.HexaliaOnyxItemGroup;
 import net.forge.mods.arkania.evolution.EvolutionModElements;
 
 @EvolutionModElements.ModElement.Tag
@@ -23,7 +23,7 @@ public class OnyxAxeItem extends EvolutionModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 361;
+				return 1006;
 			}
 
 			public float getEfficiency() {
@@ -31,7 +31,7 @@ public class OnyxAxeItem extends EvolutionModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class OnyxAxeItem extends EvolutionModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(HexaliaOnyxItemGroup.tab)) {
 		}.setRegistryName("onyx_axe"));
 	}
 }

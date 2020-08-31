@@ -8,15 +8,15 @@
     "name": "Onyx Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:HexaliaOnyx"
     },
     "toolType": "Sword",
     "harvestLevel": 3,
     "efficiency": 7.0,
     "attackSpeed": 1.0,
     "enchantability": 18,
-    "damageVsEntity": 3.0,
-    "usageCount": 361,
+    "damageVsEntity": 6.0,
+    "usageCount": 1106,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],

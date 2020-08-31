@@ -152,7 +152,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "onyx_armor"
+      "registry_name": "onyx_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "OnyxArmorHelmetRecipe",
@@ -189,6 +195,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "onyx_armor_boots_recipe"
+    },
+    {
+      "name": "HexaliaOnyx",
+      "type": "tab",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hexalia_onyx"
     }
   ],
   "variable_elements": [],
@@ -196,6 +211,7 @@
   "language_map": {
     "en_us": {
       "item.evolution.onyx_hoe": "Onyx Hoe",
+      "itemGroup.tabhexalia_onyx": "Hexalia | Onyx",
       "item.evolution.onyx_pickaxe": "Onyx Pickaxe",
       "item.evolution.onyx_armor_leggings": "Onyx Leggings",
       "item.evolution.onyx_shovel": "Onyx Shovel",

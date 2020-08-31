@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.forge.mods.arkania.evolution.itemgroup.HexaliaOnyxItemGroup;
 import net.forge.mods.arkania.evolution.EvolutionModElements;
 
 @EvolutionModElements.ModElement.Tag
@@ -23,7 +23,7 @@ public class OnyxSwordItem extends EvolutionModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 361;
+				return 1106;
 			}
 
 			public float getEfficiency() {
@@ -31,7 +31,7 @@ public class OnyxSwordItem extends EvolutionModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class OnyxSwordItem extends EvolutionModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(HexaliaOnyxItemGroup.tab)) {
 		}.setRegistryName("onyx_sword"));
 	}
 }

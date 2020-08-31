@@ -8,7 +8,7 @@
     "name": "Onyx Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:HexaliaOnyx"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 3,
@@ -16,7 +16,7 @@
     "attackSpeed": 1.0,
     "enchantability": 18,
     "damageVsEntity": 3.0,
-    "usageCount": 361,
+    "usageCount": 1006,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],

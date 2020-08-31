@@ -8,7 +8,7 @@
     "name": "Onyx Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:HexaliaOnyx"
     },
     "toolType": "Spade",
     "harvestLevel": 3,
