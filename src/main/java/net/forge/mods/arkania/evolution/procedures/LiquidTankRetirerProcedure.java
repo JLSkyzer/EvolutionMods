@@ -220,7 +220,7 @@ public class LiquidTankRetirerProcedure extends EvolutionModElements.ModElement 
 	}
 
 	@SubscribeEvent
-	public void onLeftClickBlock(PlayerInteractEvent.LeftClickBlock event) {
+	public void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
 		PlayerEntity entity = event.getPlayer();
 		if (event.getHand() != entity.getActiveHand())
 			return;
