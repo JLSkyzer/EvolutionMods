@@ -5,9 +5,9 @@ loaderVersion="[31,)"
 modId="evolution"
 version="1.0.0"
 displayName="evolution"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Megaport, MCreator"
+credits="A été fais par JLStrykerz_2_0 discord: JLStrykerz_2_0#9475"
+displayURL="https://github.com/strykerzOfficiel/EvolutionMods"
+authors="JLStrykerz_2_0"
 
 [[dependencies.evolution]]
     modId="minecraft"

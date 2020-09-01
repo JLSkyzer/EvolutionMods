@@ -1,7 +1,11 @@
 package net.forge.mods.arkania.evolution.procedures;
 
 import net.minecraftforge.items.ItemHandlerHelper;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.common.MinecraftForge;
 
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.Items;
@@ -25,11 +29,13 @@ import net.forge.mods.arkania.evolution.block.LavaLiquidBlock1Block;
 import net.forge.mods.arkania.evolution.EvolutionModElements;
 
 import java.util.Map;
+import java.util.HashMap;
 
 @EvolutionModElements.ModElement.Tag
 public class LavaLiquidTankRetirerProcedure extends EvolutionModElements.ModElement {
 	public LavaLiquidTankRetirerProcedure(EvolutionModElements instance) {
 		super(instance, 104);
+		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -212,5 +218,24 @@ public class LavaLiquidTankRetirerProcedure extends EvolutionModElements.ModElem
 				}
 			}
 		}
+	}
+
+	@SubscribeEvent
+	public void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
+		PlayerEntity entity = event.getPlayer();
+		if (event.getHand() != entity.getActiveHand())
+			return;
+		int i = event.getPos().getX();
+		int j = event.getPos().getY();
+		int k = event.getPos().getZ();
+		World world = event.getWorld();
+		Map<String, Object> dependencies = new HashMap<>();
+		dependencies.put("x", i);
+		dependencies.put("y", j);
+		dependencies.put("z", k);
+		dependencies.put("world", world);
+		dependencies.put("entity", entity);
+		dependencies.put("event", event);
+		this.executeProcedure(dependencies);
 	}
 }
