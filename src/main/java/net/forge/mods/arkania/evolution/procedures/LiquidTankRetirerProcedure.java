@@ -1,5 +1,6 @@
 package net.forge.mods.arkania.evolution.procedures;
 
+import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -71,12 +72,28 @@ public class LiquidTankRetirerProcedure extends EvolutionModElements.ModElement 
 					BlockState _bs = LiquidTank9Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
 				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				}
 			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == LiquidTank9Block.block.getDefaultState()
 					.getBlock())) {
 				{
 					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 					BlockState _bs = LiquidTank8Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
+				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
 			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == LiquidTank8Block.block.getDefaultState()
 					.getBlock())) {
@@ -85,12 +102,28 @@ public class LiquidTankRetirerProcedure extends EvolutionModElements.ModElement 
 					BlockState _bs = LiquidTank7Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
 				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				}
 			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == LiquidTank7Block.block.getDefaultState()
 					.getBlock())) {
 				{
 					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 					BlockState _bs = LiquidTank6Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
+				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
 			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == LiquidTank6Block.block.getDefaultState()
 					.getBlock())) {
@@ -99,12 +132,28 @@ public class LiquidTankRetirerProcedure extends EvolutionModElements.ModElement 
 					BlockState _bs = LiquidTank5Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
 				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				}
 			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == LiquidTank5Block.block.getDefaultState()
 					.getBlock())) {
 				{
 					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 					BlockState _bs = LiquidTank4Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
+				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
 			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == LiquidTank4Block.block.getDefaultState()
 					.getBlock())) {
@@ -113,12 +162,28 @@ public class LiquidTankRetirerProcedure extends EvolutionModElements.ModElement 
 					BlockState _bs = LiquidTank3Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
 				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				}
 			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == LiquidTank3Block.block.getDefaultState()
 					.getBlock())) {
 				{
 					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 					BlockState _bs = LiquidTank2Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
+				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
 			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == LiquidTank2Block.block.getDefaultState()
 					.getBlock())) {
@@ -127,12 +192,28 @@ public class LiquidTankRetirerProcedure extends EvolutionModElements.ModElement 
 					BlockState _bs = LiquidTank1Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
 				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				}
 			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == LiquidTank1Block.block.getDefaultState()
 					.getBlock())) {
 				{
 					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 					BlockState _bs = LiquidtankBlock.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
+				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BUCKET, (int) (1)).getItem() == p.getItem(),
+							(int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Items.WATER_BUCKET, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
 			}
 		}
