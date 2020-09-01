@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "evolution:blocks/liquide_tank_up_side",
+    "up": "evolution:blocks/liquide_tank_up_side",
+    "north": "evolution:blocks/lava_liquid_tank_4",
+    "east": "evolution:blocks/lava_liquid_tank_4",
+    "south": "evolution:blocks/lava_liquid_tank_4",
+    "west": "evolution:blocks/lava_liquid_tank_4",
+    "particle": "evolution:blocks/liquide_tank_up_side"
+  }
+}
