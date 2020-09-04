@@ -1179,6 +1179,62 @@
           }
         ]
       }
+    },
+    {
+      "name": "StrykerzCard",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strykerz_card"
+    },
+    {
+      "name": "DynamiteTexture",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_texture"
+    },
+    {
+      "name": "Dynamite",
+      "type": "gun",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite"
+    },
+    {
+      "name": "DynamiteBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1191,6 +1247,7 @@
       "item.evolution.adamantite_axe": "Adamantite Axe",
       "item.evolution.hexelia_sword": "arkanite Sword",
       "item.evolution.onyx_armor_leggings": "Onyx Leggings",
+      "item.evolution.dynamite_texture": "Dynamite Texture",
       "block.evolution.adamantite_ore": "Adamantite Ore",
       "itemGroup.tabhexelia_hexelia": "Hexelia | Hexelia",
       "item.evolution.onyx_armor_chestplate": "Onyx Chestplate",
@@ -1230,6 +1287,7 @@
       "item.evolution.onyx_pickaxe": "Onyx Pickaxe",
       "item.evolution.adamantite_armor_boots": "Adamantite Armor Boots",
       "block.evolution.liquidtank": "Liquid tank",
+      "item.evolution.strykerz_card": "Strykerz Card",
       "item.evolution.onyx_shovel": "Onyx Shovel",
       "item.evolution.onyx_armor_boots": "Onyx Boots",
       "item.evolution.onyx_sword": "Onyx Sword",
@@ -1249,6 +1307,7 @@
       "item.evolution.onyx_gem": "Onyx",
       "item.evolution.adamantite_armor_chestplate": "Adamantite Armor Body",
       "item.evolution.hexelia_armor_leggings": "arkanite Leggings",
+      "item.evolution.dynamite": "Dynamite",
       "block.evolution.hexelia_block": "arkanite Block"
     }
   },
